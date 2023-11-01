@@ -37,3 +37,18 @@ menuIcon.classList.remove('bx-x');
 navbar.classList.remove('active');
 
 };
+
+
+// Scroll reveal
+
+ScrollReveal({ 
+  // reset: true,
+  distance: '80px',
+  duration: 2000,
+  delay: 200
+});
+
+ScrollReveal().reveal('.heading', { origin: 'top' });
+ScrollReveal().reveal('.banner, .home-img, .container, .portfolio, .img-gallery img, .contact-form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .about-img, .content', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content, .about-heading, video', { origin: 'right' });
